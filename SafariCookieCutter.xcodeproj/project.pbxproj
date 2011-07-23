@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0227EF70A3C7FD70013627E /* SCCControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E013442103CD0C5F00A80004 /* SCCControl.h */; };
+		E0227EF80A3C7FD70013627E /* SCCSortSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = E020D06003EE8D7E00A80004 /* SCCSortSupport.h */; };
+		E0227EF90A3C7FD70013627E /* SCCCookies.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D95A0404C12A3000A80004 /* SCCCookies.h */; };
+		E0227EFA0A3C7FD70013627E /* SCCDomainStringFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D6693A04C39F1700A80004 /* SCCDomainStringFormatter.h */; };
+		E0227EFC0A3C7FD70013627E /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		E0227EFD0A3C7FD70013627E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		E0227EFE0A3C7FD70013627E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0F4EF6603D1412200A80004 /* Localizable.strings */; };
+		E0227EFF0A3C7FD70013627E /* DeleteCookie.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E040B5AF03D7C90000A80004 /* DeleteCookie.tiff */; };
+		E0227F000A3C7FD70013627E /* AddCookie.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E040B5B003D7C90000A80004 /* AddCookie.tiff */; };
+		E0227F010A3C7FD70013627E /* SafariCookieCutter.icns in Resources */ = {isa = PBXBuildFile; fileRef = E026ACF503DBF2C900A80004 /* SafariCookieCutter.icns */; };
+		E0227F020A3C7FD70013627E /* TableViewTriangle.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E0EDA01E03E9105E00A80004 /* TableViewTriangle.tiff */; };
+		E0227F040A3C7FD70013627E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		E0227F050A3C7FD70013627E /* SCCControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E013442203CD0C5F00A80004 /* SCCControl.m */; };
+		E0227F060A3C7FD70013627E /* SCCCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D95A0504C12A3000A80004 /* SCCCookies.m */; };
+		E0227F070A3C7FD70013627E /* SCCSortSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = E020D06103EE8D7E00A80004 /* SCCSortSupport.m */; };
+		E0227F080A3C7FD70013627E /* SCCDomainStringFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D6693B04C39F1700A80004 /* SCCDomainStringFormatter.m */; };
+		E0227F0A0A3C7FD70013627E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		E0227F110A3C7FD70013627E /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_x;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		E0227F120A3C7FD70013627E /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_x;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+		E0227F130A3C7FD70013627E /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.gcc.3_x;
+			fileType = sourcecode.c;
+			isEditable = 1;
+			outputFiles = (
+			);
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* SafariCookieCutter_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariCookieCutter_Prefix.h; sourceTree = "<group>"; };
+		E003E32A043894BD00A80004 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E013442103CD0C5F00A80004 /* SCCControl.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SCCControl.h; sourceTree = "<group>"; };
+		E013442203CD0C5F00A80004 /* SCCControl.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SCCControl.m; sourceTree = "<group>"; };
+		E020D05D03EE7F8400A80004 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E020D05E03EE801200A80004 /* French */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = French; path = French.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		E020D05F03EE802800A80004 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E020D06003EE8D7E00A80004 /* SCCSortSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCSortSupport.h; sourceTree = "<group>"; };
+		E020D06103EE8D7E00A80004 /* SCCSortSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCSortSupport.m; sourceTree = "<group>"; };
+		E0227F100A3C7FD70013627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0227F140A3C7FD70013627E /* SafariCookieCutter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafariCookieCutter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E026ACF503DBF2C900A80004 /* SafariCookieCutter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SafariCookieCutter.icns; sourceTree = "<group>"; };
+		E02E68DE0438AE0B00A80004 /* German */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = German; path = German.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		E02E68DF0438AE3900A80004 /* German */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E040B5AF03D7C90000A80004 /* DeleteCookie.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = DeleteCookie.tiff; sourceTree = "<group>"; };
+		E040B5B003D7C90000A80004 /* AddCookie.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = AddCookie.tiff; sourceTree = "<group>"; };
+		E06879550A9553BC00FD1737 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E06879560A9553C600FD1737 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Japanese; path = Japanese.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E06879570A9553CB00FD1737 /* Japanese */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = Japanese; path = Japanese.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		E0BD58E403D12F2900A80004 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		E0C6EB4B04A8DE0C00A80004 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		E0C6EB4D04A8DE1F00A80004 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		E0D6693A04C39F1700A80004 /* SCCDomainStringFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCDomainStringFormatter.h; sourceTree = "<group>"; };
+		E0D6693B04C39F1700A80004 /* SCCDomainStringFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCDomainStringFormatter.m; sourceTree = "<group>"; };
+		E0D95A0404C12A3000A80004 /* SCCCookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCCCookies.h; sourceTree = "<group>"; };
+		E0D95A0504C12A3000A80004 /* SCCCookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCCCookies.m; sourceTree = "<group>"; };
+		E0EDA01E03E9105E00A80004 /* TableViewTriangle.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = TableViewTriangle.tiff; sourceTree = "<group>"; };
+		E0F4EF6403D1410A00A80004 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0227F090A3C7FD70013627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0227F0A0A3C7FD70013627E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E013442103CD0C5F00A80004 /* SCCControl.h */,
+				E013442203CD0C5F00A80004 /* SCCControl.m */,
+				E0D95A0404C12A3000A80004 /* SCCCookies.h */,
+				E0D95A0504C12A3000A80004 /* SCCCookies.m */,
+				E0D6693A04C39F1700A80004 /* SCCDomainStringFormatter.h */,
+				E0D6693B04C39F1700A80004 /* SCCDomainStringFormatter.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				E0BD58E403D12F2900A80004 /* Carbon.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				E0C6EB4B04A8DE0C00A80004 /* ApplicationServices.framework */,
+				E0C6EB4D04A8DE1F00A80004 /* CoreServices.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0227F140A3C7FD70013627E /* SafariCookieCutter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SafariCookieCutter */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = SafariCookieCutter;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E020D06003EE8D7E00A80004 /* SCCSortSupport.h */,
+				E020D06103EE8D7E00A80004 /* SCCSortSupport.m */,
+				32CA4F630368D1EE00C91783 /* SafariCookieCutter_Prefix.h */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0227F100A3C7FD70013627E /* Info.plist */,
+				E0EDA01E03E9105E00A80004 /* TableViewTriangle.tiff */,
+				E026ACF503DBF2C900A80004 /* SafariCookieCutter.icns */,
+				E040B5B003D7C90000A80004 /* AddCookie.tiff */,
+				E040B5AF03D7C90000A80004 /* DeleteCookie.tiff */,
+				E0F4EF6603D1412200A80004 /* Localizable.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E0227EF60A3C7FD70013627E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0227EF70A3C7FD70013627E /* SCCControl.h in Headers */,
+				E0227EF80A3C7FD70013627E /* SCCSortSupport.h in Headers */,
+				E0227EF90A3C7FD70013627E /* SCCCookies.h in Headers */,
+				E0227EFA0A3C7FD70013627E /* SCCDomainStringFormatter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E0227EF50A3C7FD70013627E /* SafariCookieCutter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0227F0C0A3C7FD70013627E /* Build configuration list for PBXNativeTarget "SafariCookieCutter" */;
+			buildPhases = (
+				E0227EF60A3C7FD70013627E /* Headers */,
+				E0227EFB0A3C7FD70013627E /* Resources */,
+				E0227F030A3C7FD70013627E /* Sources */,
+				E0227F090A3C7FD70013627E /* Frameworks */,
+				E0227F0B0A3C7FD70013627E /* ShellScript */,
+			);
+			buildRules = (
+				E0227F110A3C7FD70013627E /* PBXBuildRule */,
+				E0227F120A3C7FD70013627E /* PBXBuildRule */,
+				E0227F130A3C7FD70013627E /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = SafariCookieCutter;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SafariCookieCutter;
+			productReference = E0227F140A3C7FD70013627E /* SafariCookieCutter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = E0227EF10A3C7FA30013627E /* Build configuration list for PBXProject "SafariCookieCutter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SafariCookieCutter */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0227EF50A3C7FD70013627E /* SafariCookieCutter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0227EFB0A3C7FD70013627E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0227EFC0A3C7FD70013627E /* MainMenu.nib in Resources */,
+				E0227EFD0A3C7FD70013627E /* InfoPlist.strings in Resources */,
+				E0227EFE0A3C7FD70013627E /* Localizable.strings in Resources */,
+				E0227EFF0A3C7FD70013627E /* DeleteCookie.tiff in Resources */,
+				E0227F000A3C7FD70013627E /* AddCookie.tiff in Resources */,
+				E0227F010A3C7FD70013627E /* SafariCookieCutter.icns in Resources */,
+				E0227F020A3C7FD70013627E /* TableViewTriangle.tiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0227F0B0A3C7FD70013627E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n# **********************************************************************\n# PBCleaner\n# Version 1.0 - \n# By Nick Zitzmann\n# Copyright 2002-2003 Nick Zitzmann. All rights reserved.\n# **********************************************************************\n# Purpose: To clean up project builds made by Project Builder so that\n#          they are ready to distribute to users.\n# Supports: All application and extension-like projects\n#           (like kernel extensions, bundles, plugins, etc.).\n#           Warning! This script will not work with framework targets!\n#\n# Redistribution and use in source and binary forms, with or without\n# modification, are permitted provided that the following conditions\n# are met:\n#\n# 1. Redistributions of source code must retain the above copyright\n# notice, this list of conditions and the following disclaimer.\n#\n# 2. Redistributions in binary form must reproduce the above copyright\n# notice, this list of conditions and the following disclaimer in the\n# documentation and/or other materials provided with the distribution.\n#\n# 3. The names of its contributors may not be used to endorse or promote\n# products derived from this software without specific prior written\n# permission.\n#\n# THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n# \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n# LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n# A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR\n# CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n# EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n# PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n# PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n# LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n# NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n# SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nif [ \"${WRAPPER_EXTENSION}\" = \"framework\" ]; then\n\techo \"I told you this script was not for framework targets!\"\n\treturn 1\nfi\n\n# Remove all the headers from included frameworks; they're just dead\n# weight for the user.\nif [ -d \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/Frameworks\" ]; then\n    find \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/Frameworks\" -name 'Headers' \\( -type d -or -type l \\) -exec rm -rf {} \\; -prune ;\n\tfind \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/Frameworks\" -name 'PrivateHeaders' \\( -type d -or -type l \\) -exec rm -rf {} \\; -prune ;\nfi\n\n# Prune additional dead weight stuff:\n# pbdevelopment.plist files\nfind \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents\" -name 'pbdevelopment.plist' -type f -exec rm -f {} \\; -prune ;\n# .DS_Store files\nfind \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents\" -name '.DS_Store' -type f -exec rm -f {} \\; -prune ;\n\n# If STRIP_NIBS is declared and set to YES, then we clean out the\n# classes.nib and info.nib files from all frameworks.\nif [ \"${STRIP_NIBS}\" = \"YES\" ]; then\n    find \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents\" \\( -name 'classes.nib' -or -name 'info.nib' \\) -type f -exec rm -f {} \\; -prune ;\nfi\n\n# If STRIP_BINARY is declared and set to YES, then we clean out the\n# exe's symbols.\nif [ \"${STRIP_BINARY}\" = \"YES\" ]; then\n    if [ -f \"${SRCROOT}/${PRODUCT_NAME}.SymbolsToKeep\" ]; then\n        strip -u -r -s \"${SRCROOT}/${PRODUCT_NAME}.SymbolsToKeep\" \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/MacOS/${PRODUCT_NAME}\"\n    elif [ -f \"${SRCROOT}/${PRODUCT_NAME}.SymbolsToStrip\" ]; then\n        strip -u -r -R \"${SRCROOT}/${PRODUCT_NAME}.SymbolsToStrip\" \".${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/MacOS/${PRODUCT_NAME}\"\n    else\n        strip -u -r \"${TARGET_BUILD_DIR}/${PRODUCT_NAME}.${WRAPPER_EXTENSION}/Contents/MacOS/${PRODUCT_NAME}\"\n    fi\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0227F030A3C7FD70013627E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0227F040A3C7FD70013627E /* main.m in Sources */,
+				E0227F050A3C7FD70013627E /* SCCControl.m in Sources */,
+				E0227F060A3C7FD70013627E /* SCCCookies.m in Sources */,
+				E0227F070A3C7FD70013627E /* SCCSortSupport.m in Sources */,
+				E0227F080A3C7FD70013627E /* SCCDomainStringFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+				E020D05F03EE802800A80004 /* French */,
+				E02E68DF0438AE3900A80004 /* German */,
+				E06879560A9553C600FD1737 /* Japanese */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+				E020D05E03EE801200A80004 /* French */,
+				E02E68DE0438AE0B00A80004 /* German */,
+				E06879570A9553CB00FD1737 /* Japanese */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		E0F4EF6603D1412200A80004 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0F4EF6403D1410A00A80004 /* English */,
+				E020D05D03EE7F8400A80004 /* French */,
+				E003E32A043894BD00A80004 /* German */,
+				E06879550A9553BC00FD1737 /* Japanese */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0227EF20A3C7FA30013627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				SDKROOT = macosx10.6;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Debug;
+		};
+		E0227EF30A3C7FA30013627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				GCC_VERSION_i386 = 4.0;
+				GCC_VERSION_ppc = 3.3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				MACOSX_DEPLOYMENT_TARGET_i386 = 10.4;
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.2;
+				SDKROOT = macosx10.6;
+				SDKROOT_i386 = /Developer/SDKs/MacOSX10.4u.sdk;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.2.8.sdk;
+			};
+			name = Release;
+		};
+		E0227F0D0A3C7FD70013627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = SafariCookieCutter_Prefix.h;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = SafariCookieCutter;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		E0227F0E0A3C7FD70013627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREFIX_HEADER = SafariCookieCutter_Prefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = SafariCookieCutter;
+				SECTORDER_FLAGS = "";
+				STRIP_BINARY = YES;
+				STRIP_NIBS = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0227EF10A3C7FA30013627E /* Build configuration list for PBXProject "SafariCookieCutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0227EF20A3C7FA30013627E /* Debug */,
+				E0227EF30A3C7FA30013627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0227F0C0A3C7FD70013627E /* Build configuration list for PBXNativeTarget "SafariCookieCutter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0227F0D0A3C7FD70013627E /* Debug */,
+				E0227F0E0A3C7FD70013627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
