@@ -324,13 +324,13 @@
                 {
                     // In this case, delete the Expires key and make the cookie expire at the end of the session.
                     [cookieProperties removeObjectForKey:NSHTTPCookieExpires];
-                    [cookieProperties setObject:@"TRUE" forKey:NSHTTPCookieDiscard];
+                    //[cookieProperties setObject:@"TRUE" forKey:NSHTTPCookieDiscard];
                 }
                 else	// if the Expires column is not blank
                 {
                     // In this case, set the Expires key and make sure the cookie doesn't expire at the end of the session.
                     [cookieProperties setObject:anObject forKey:NSHTTPCookieExpires];
-                    [cookieProperties setObject:@"FALSE" forKey:NSHTTPCookieDiscard];
+                    //[cookieProperties setObject:@"FALSE" forKey:NSHTTPCookieDiscard];
                 }
             }
             else	// or else just do a normal update
