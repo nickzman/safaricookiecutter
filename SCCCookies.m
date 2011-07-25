@@ -70,13 +70,26 @@ NSString *SCCCookiesDidChangeNotification = @"SCCCookiesDidChangeNotification";
 		@try
 		{
 			struct kevent kEvent, theEvent;
-			int fd;
+			int fd, numTries = 0;
 			
 			pool = [[NSAutoreleasePool alloc] init];
 			do	// we want to watch ~/Library/Cookies/Cookies.binarycookies
 			{
 				fd = open(cookiesURL.path.fileSystemRepresentation, O_EVTONLY, 0);
-			} while (fd == 0);	// keep trying until it works
+				if (fd == 0)
+				{
+					sleep(1);
+					numTries++;
+				}
+			} while (fd == 0 && numTries < 10);	// keep trying until it works
+			if (numTries >= 10)
+			{
+				NSLog(@"Tried looking for ~/Library/Cookies/Cookies.binarycookies ten times and it wasn't there. Giving up.");
+				[fm release];
+				[cookiesURL release];
+				[pool drain];
+				return;
+			}
 			
 			EV_SET(&kEvent, fd, EVFILT_VNODE, EV_ADD|EV_ENABLE|EV_CLEAR, NOTE_WRITE|NOTE_DELETE, 0, 0);
 			kevent(kQueue, &kEvent, 1, NULL, 0, NULL);	// watch for changes to this file
